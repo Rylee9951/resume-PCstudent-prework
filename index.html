@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="header">
+        <img src="assets/me.jpg" alt="Ryan Lee" />
+        <h1>Ryan Lee</h1>
+      </div>
+      <div class="experience">
+        <h3 class="title">Experience</h3>
+        <button id="punchbtn" class="btn btn-primary">PunchCode</button>
+        <div id="punch" class="well text">
+          <h5>
+            ASSOCIATE INSTRUCTOR/FULL STACK DEVELOPER, LAS VEGAS, NEVADA —
+            NOVEMBER 2017 - PRESENT
+          </h5>
+          <p>
+            Worked with Lead Instructor in assessing the development and
+            progress of individual students, grading assignments and supporting
+            students in various programs with their learning objectives, group
+            projects, and homework assignments. Gave occasional part-time class
+            lectures, as well as free lectures to the public. Organized
+            volunteer events, including Meet your Mentor for current cohort
+            students. Developed PunchCode.org and developing a Classroom App
+            that will be used for the entire Tech Impact Las Vegas programs that
+            will handle all inventory, students, classes and finally a Classroom
+            to be able to grade, view assignments turned in, take attendance,
+            progress reports and much more.
+          </p>
+        </div>
+        <button id="ironbtn" class="btn btn-primary">The Iron Yard</button>
+        <div id="iron" class="well text">
+          <h5>
+            ASSOCIATE INSTRUCTOR, LAS VEGAS, NEVADA — JUNE 2017 - OCTOBER 2017
+          </h5>
+          <p>
+            Worked with Lead Instructor in assessing the development and
+            progress of individual students, grading assignments and supporting
+            students in various programs with their learning objectives, group
+            projects, and homework assignments. Gave occasional part-time class
+            lectures, as well as free lectures to the public.
+          </p>
+        </div>
+        <button id="lavobtn" class="btn btn-primary">Lavo</button>
+        <div id="lavo" class="well text">
+          <h5>BARTENDER, LAS VEGAS, NEVADA — APRIL 2010- JANUARY 2015</h5>
+          <p>
+            Served and created signature cocktails in a fine dining restaurant.
+            Running a 18 seat bar during dinner service and a bar that was at
+            times 3-4 people deep during peak hours. Opening duties included,
+            stocking, inventory, daily health code checklist. Closing duties
+            included turning in reports to management and distributed tips for
+            entire bar staff. Attended bi-weekly wine and food classes to obtain
+            product knowledge in order to boost sales and be a well informed
+            bartender and food server for our upscale clientele.
+          </p>
+        </div>
+      </div>
+      <div class="contactme">
+        <h3 class="title">Contact Me</h3>
+        <form>
+          <div>
+            <input id="prof" name="reasonForInquiry" type="radio" checked />
+            <label for="prof">This is a professional request.</label>
+          </div>
+          <div>
+            <input id="pers" name="reasonForInquiry" type="radio" />
+            <label for="pers">This is a personal request.</label>
+          </div>
+          <textarea id="emailBody" required rows="4"></textarea>
+          <div>
+            <input id="robot" type="checkbox" />
+            <label id="robotLabel" class="invalid"
+              >Check to prove you are not a robot.</label
+            >
+          </div>
+          <button id="emailBtn" class="btn btn-primary" disabled>
+            Email professional request
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
